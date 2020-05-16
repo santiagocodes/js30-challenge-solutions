@@ -3,18 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <title>JS30 Challenge</title>
   </head>
-  <body>
+  <body class="bg-gray-200">
     <main>
-      <section id="intro">
-        <div id="line1" class=""></div>
-        <div id="line2" class=""></div>
-        <div id="line3" class=""></div>
-        <div id="line4" class=""></div>
+      <section id="intro" class="container min-h-screen">
+        <img
+          class="w-full h-70vh mt-10vh"
+          src="images/JS30-intro.png"
+          alt="My name is Maria del Carmen. I am a web developer, and these are my JS30 Challenge Solutions."
+        />
+        <a href="#content" class="" aria-label="Scroll to content">
+          <svg
+            class="mt-10vh mx-auto animate__animated animate__slideInDown animate__repeat-3"
+            width="63"
+            height="23"
+            viewBox="0 0 63 23"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M62.447 1.724L31.724 21.162 1 1.724"
+              stroke="#111"
+              stroke-width="4"
+              fill="none"
+              fill-rule="evenodd"
+              stroke-opacity=".7"
+            ></path>
+          </svg>
+        </a>
       </section>
-      <section id="content"></section>
+      <section id="content" class="container bg-green-200">
+        <h1>JS30 Challenge Solutions</h1>
+      </section>
     </main>
     <footer></footer>
   </body>

@@ -11,6 +11,11 @@ module.exports = {
       },
     },
     extend: {
+      minHeight: {
+        "0": "0",
+        "64": "16rem",
+        "72": "18rem",
+      },
       spacing: {
         "10p": "10%",
         "20p": "20%",

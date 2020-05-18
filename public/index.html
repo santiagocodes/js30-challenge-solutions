@@ -12,10 +12,10 @@
   </head>
   <body class="bg-gray-200">
     <main>
-      <section id="intro" class="container min-h-screen">
+      <section id="intro" class="container min-h-screen bg-indigo-800">
         <img
-          class="w-full h-70vh mt-10vh"
-          src="images/JS30-intro.png"
+          class="w-full h-75vh pt-10vh"
+          src="images/js30-intro.png"
           alt="My name is Maria del Carmen. I am a web developer, and these are my JS30 Challenge Solutions."
         />
         <a href="#content" class="" aria-label="Scroll to content">
@@ -32,13 +32,239 @@
               stroke-width="4"
               fill="none"
               fill-rule="evenodd"
-              stroke-opacity=".7"
+              stroke-opacity=".9"
             ></path>
           </svg>
         </a>
       </section>
-      <section id="content" class="container bg-green-200">
-        <h1>JS30 Challenge Solutions</h1>
+
+      <!-- Content Section -->
+      <section id="content" class="container pb-6 min-h-screen bg-purple-500">
+        <div class="max-w-md sm:max-w-lg md:max-w-md lg:max-w-lg mx-auto pt-6">
+          <img
+            class="opacity-75"
+            src="images/js30-title.png"
+            alt="Javascript 30 Challenge Solutions"
+          />
+        </div>
+        <!-- article container -->
+        <div
+          class="container bg-gray-200 text-justify border rounded-sm mt-6 max-w-sm sm:mt-10 sm:max-w-md md:max-w-lg lg:max-w-2xl"
+        >
+          <!-- article1 left-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-left sm:mt-0 lg:leading-7"
+          >
+            <h1
+              class="sm:hidden mt-3 mb-1 text-purple-800 text-center text-xl font-bold"
+            >
+              01-Drum Kit
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-left sm:-mt-6 sm:mr-3 sm:mb-3 sm:-ml-20 lg:-mt-6 lg:mr-3 lg:mb-4 lg:-ml-40"
+              src="images/01-drum-kit.png"
+              alt="01 Drum Kit codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 text-xl font-bold sm:mb-2">
+                01-Drum Kit
+              </h1>
+              <p class="text-base">
+                This is a JavaScript drum kit. When the user hits the
+                corresponding key on their keyboard it is going to play the
+                sound associated to it. A short animation will be triggered at
+                the same time as well.
+              </p>
+              <div class="text-center sm:text-left text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/RwNzEJd"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- article2 right-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-right sm:mt-0 lg:leading-7"
+          >
+            <h1 class="sm:hidden mt-3 mb-1 text-center text-xl font-bold">
+              02-CSS + JS Clock
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-right sm:-mt-6 sm:ml-3 sm:mb-3 sm:-mr-20 lg:-mt-6 lg:-mr-40 lg:ml-3"
+              src="images/02-js-clock.png"
+              alt="02 CSS + JS Clock codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 sm:mb-2 text-xl font-bold">
+                02-CSS + JS Clock
+              </h1>
+              <p class="text-base">
+                A clock that takes in the current time from JavaScript in order
+                to update the hands on the face of the clock. Aside from
+                tweaking the basic CSS, I changed the size of the hands and
+                added the time on digital format (with a fix for the first nine
+                minutes of every hour so that they always show in double digits
+                [e.g. 16:02, not 16:2]).
+              </p>
+              <div class="text-center sm:text-right text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/OJPKeOO"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- article3 left-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-left sm:mt-0 lg:leading-7"
+          >
+            <h1
+              class="sm:hidden mt-3 mb-1 text-purple-800 text-center text-xl font-bold"
+            >
+              03-Playing with CSS Variables and JS
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-left sm:-mt-6 sm:mr-3 sm:mb-3 sm:-ml-20 lg:-mt-6 lg:mr-3 lg:mb-4 lg:-ml-40"
+              src="images/03-playing-with-css-variables.png"
+              alt="03 Playing with CSS Variables and JS codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 text-xl font-bold sm:mb-2">
+                03-Playing with CSS Variables and JS
+              </h1>
+              <p class="text-base">
+                For the image provided the user will be able to change the blur
+                of said picture, and the spacing and base color of the frame
+                around it. All of this will be done by updating the CSS
+                variables using JavaScript so that the variables will update
+                themselves even after compile time.
+              </p>
+              <div class="text-center sm:text-left text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/mdJJYWX"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- article4 right-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-right sm:mt-0 lg:leading-7"
+          >
+            <h1 class="sm:hidden mt-3 mb-1 text-center text-xl font-bold">
+              04-Array Cardio Part 1
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-right sm:-mt-6 sm:ml-3 sm:mb-3 sm:-mr-20 lg:-mt-6 lg:-mr-40 lg:ml-3"
+              src="images/04-array-cardio-part1.png"
+              alt="04 Array Cardio Part 1 codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 sm:mb-2 text-xl font-bold">
+                04-Array Cardio Part 1
+              </h1>
+              <p class="text-base">
+                Dealing with the fundamentals of JavaScript by working with
+                array methods. This includes filter(), map(), sort(), and
+                reduce(). Some data is given before diving into 8 small
+                challenges.
+              </p>
+              <div class="text-center sm:text-right text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/NWqGXZY"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- article5 left-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-left sm:mt-0 lg:leading-7"
+          >
+            <h1
+              class="sm:hidden mt-3 mb-1 text-purple-800 text-center text-xl font-bold"
+            >
+              05-Flex Panel Gallery
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-left sm:-mt-6 sm:mr-3 sm:mb-3 sm:-ml-20 lg:-mt-6 lg:mr-3 lg:mb-4 lg:-ml-40"
+              src="images/05-flex-panel-gallery.png"
+              alt="05 Flex Panel Gallery codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 text-xl font-bold sm:mb-2">
+                05-Flex Panel Gallery
+              </h1>
+              <p class="text-base">
+                This is a flex gallery. It has 5 panels which, when clicked,
+                will grow in size and show some additional words that will come
+                from the top and the bottom of the page. Mainly done with CSS,
+                though we still use JavaScript to listen to the click so as to
+                trigger certain CSS classes.
+              </p>
+              <div class="text-center sm:text-left text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/VwLaJYp"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- article6 right-->
+          <article
+            class="border-b-2 mt-6 text-purple-800 sm:text-right sm:mt-0 lg:leading-7"
+          >
+            <h1 class="sm:hidden mt-3 mb-1 text-center text-xl font-bold">
+              06-Ajax Type Ahead Search
+            </h1>
+            <img
+              class="h-32 sm:h-40 lg:h-56 mx-auto px-1 mt-2 rounded-sm sm:float-right sm:-mt-6 sm:ml-3 sm:mb-3 sm:-mr-20 lg:-mt-6 lg:-mr-40 lg:ml-3"
+              src="images/06-ajax-type-ahead-search.png"
+              alt="06 Ajax Type Ahead Search codepen screenshot javascript30"
+            />
+            <div class="mt-3 px-3 sm:mt-0 sm:pl-4 sm:pr-0 sm:py-4">
+              <h1 class="hidden sm:block mb-1 sm:mb-2 text-xl font-bold">
+                06-Ajax Type Ahead Search
+              </h1>
+              <p class="text-base">
+                A type ahead feature which uses a list of cities and states
+                taken from a json file. When the user starts to type in the
+                name, different suggestions will pop underneath the search box.
+                The number on the right is the population of each city/state.
+                This information is also provided by the same
+                <a
+                  class="underline"
+                  href="https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json"
+                  >json file</a
+                >.
+              </p>
+              <div class="text-center sm:text-right text-sm mt-2 mb-4">
+                <a
+                  class="py-1 px-2 border rounded inline-block uppercase text-center bg-purple-800 hover:bg-purple-700 text-gray-200"
+                  href="https://codepen.io/santiagocodes/pen/JjdKLaE"
+                  target="_blank"
+                  >codepen
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
       </section>
     </main>
     <footer></footer>

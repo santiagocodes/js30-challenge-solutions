@@ -2,4 +2,26 @@
 
 @tailwind components;
 
+.gradientLight {
+  background-image: linear-gradient(
+    to top,
+    #9f7aea,
+    #b998ef,
+    #d1b6f5,
+    #e6d5fa,
+    #faf5ff
+  );
+}
+
+.gradientDarker {
+  background-image: linear-gradient(
+    to bottom,
+    #9f7aea,
+    #8c6ad5,
+    #795ac1,
+    #674bad,
+    #553c9a
+  );
+}
+
 @tailwind utilities;
